@@ -1,0 +1,23 @@
+{
+  "name": "login-with-codewallet-nextjs-demo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@code-wallet/client": "latest",
+    "@code-wallet/elements": "latest",
+    "@code-wallet/keys": "latest",
+    "next": "^13.4.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.13.1",
+    "@types/react": "19.0.8",
+    "typescript": "5.7.3"
+  }
+}
