@@ -121,7 +121,7 @@ login-with-codewallet-nextjs-demo/
   ```json
   {
     "domain": "example-getcode.com",
-    "verifier": "C6M1oHqNQeuALNq9N68bIRQ2uFSMNiGnd2dwLnozebEG"
+    "verifier": "5TSdPcPLe9CovF5ZK8gfv1kmSpHc9GuWkaDUK2sqC33X"
   }
   ```
 
@@ -134,7 +134,7 @@ login-with-codewallet-nextjs-demo/
   ```json
   {
     "clientSecret": "client_secret_value_here",
-    "id": "F7LaESrj3m1KqB2a6aU1xDj9Erhh4WDYLaZQmg9oWU37"
+    "id": "codeHy87wGD5oMRLG75qKqsSi1vWE3oxNyYmXo5F9YR"
   }
   ```
 
@@ -146,7 +146,7 @@ login-with-codewallet-nextjs-demo/
 
   ```json
   {
-    "intent": "F7LaESrj3m1KqB2a6aU1xDj9Erhh4WDYLaZQmg9oWU37",
+    "intent": "codeHy87wGD5oMRLG75qKqsSi1vWE3oxNyYmXo5F9YR",
     "status": {
       "status": "confirmed",
       "exists": true,
@@ -154,7 +154,7 @@ login-with-codewallet-nextjs-demo/
       "intentSubmitted": true
     },
     "user": {
-      "userId": "6D7fPwv2bATaR4ZpJv7j6mVc3FSKjmdXZzb7uajTYzX5"
+      "userId": "8k3pM9w7aJ2VzT6Hr4bNfZxL5yGdCuS1mQeJtB7vRaxP"
     }
   }
   ```
@@ -196,9 +196,6 @@ login-with-codewallet-nextjs-demo/
 
 - **pages/index.tsx:**  
   A simple redirect page that sends users to `/login`.
-
-- **Archival Files:**  
-  There are archived files (e.g., `backend.ts.TXT`, `frontend.ts.LEGACY`) which show similar implementations in an Express.js environment. They are provided for reference only.
 
 ## License
 
